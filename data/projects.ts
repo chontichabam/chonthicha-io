@@ -7,8 +7,8 @@ export const projects = [
       tech: [],
       images: [
         "/images/q11.jpg",
-        "/images/q22.jpg",
-        "/images/q33.jpg",
+      
+        "/images/q33.jpg"
       ],
     },
   
@@ -34,7 +34,7 @@ export const projects = [
       ],
       images: [
         "/images/i2.jpg",
-        "/images/i1.jpg",
+        "/images/i1.jpg"
       ],
     },
   
@@ -48,7 +48,7 @@ export const projects = [
         "/images/dr1.jpg",
         "/images/dr2.jpg",
         "/images/dr3.jpg",
-        "/images/dr4.jpg",
+        "/images/dr4.jpg"
       ],
     },
   
@@ -76,7 +76,7 @@ export const projects = [
         images: [
           "/images/r1.jpg",
           "/images/r2.jpg",
-          "/images/r3.jpg",
+          "/images/r3.jpg"
         ],
       },
   
@@ -95,7 +95,7 @@ export const projects = [
         images: [
           "/images/in3.png",
           "/images/in2.png",
-          "/images/in1.jpg",
+          "/images/in1.jpg"
         ],
       },
   
