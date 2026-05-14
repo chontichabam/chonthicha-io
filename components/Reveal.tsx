@@ -11,52 +11,28 @@ export default function Reveal({
     <motion.div
       initial={{
         opacity: 0,
-        y: 120,
-        scale: 0.92,
-        rotateX: 12,
-        filter: "blur(18px)",
+        y: 40,
+        scale: 0.98,
       }}
       whileInView={{
         opacity: 1,
         y: 0,
         scale: 1,
-        rotateX: 0,
-        filter: "blur(0px)",
       }}
       viewport={{
         once: true,
-        amount: 0.15,
+        amount: 0.2,
       }}
       transition={{
-        duration: 1.4,
-        ease: [0.16, 1, 0.3, 1],
-      }}
-      style={{
-        transformPerspective: 1200,
+        duration: 0.6,
+        ease: [0.25, 0.1, 0.25, 1],
       }}
       className="
         will-change-transform
         will-change-opacity
-        will-change-[filter]
       "
     >
-      <motion.div
-        initial={{
-          opacity: 0,
-        }}
-        whileInView={{
-          opacity: 1,
-        }}
-        viewport={{
-          once: true,
-        }}
-        transition={{
-          duration: 1.8,
-          ease: "easeOut",
-        }}
-      >
-        {children}
-      </motion.div>
+      {children}
     </motion.div>
   );
 }
