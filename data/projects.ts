@@ -6,8 +6,8 @@ export const projects = [
         "Developed a Hospital Queue Management System to streamline patient service flow and improve operational efficiency.",
       tech: [],
       images: [
-        "/images/qu1-1.jpg",
-        "/images/qu2-2.jpg",
+        "/images/qu1-1.JPG",
+        "/images/qu2-2.JPG",
         "/images/qu2.jpg"
       ],
     },
