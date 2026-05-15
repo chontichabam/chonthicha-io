@@ -7,7 +7,7 @@ export const projects = [
       tech: [],
       images: [
         "/images/q11.jpg",
-      
+        "/images/q22.jpg",
         "/images/q33.jpg"
       ],
     },
